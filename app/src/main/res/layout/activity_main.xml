@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_dexposed_hook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dexposed hook方案"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_gradle_plugin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_dexposed_hook"
+        android:text="gradle 插件开发"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_and_resguard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_gradle_plugin"
+        android:text="AndResguard阶段 对资源进行去重处理"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_arsc_slim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_and_resguard"
+        android:text="arsc瘦身"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_dokit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_arsc_slim"
+        android:text="滴滴dokit"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_battery_historians"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_dokit"
+        android:text="Google battery-historians 耗电量分析"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_bitmap_native"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_battery_historians"
+        android:text="Android5.0-7.0 bitmap内存放到Native中"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_xhook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_bitmap_native"
+        android:text="iqiyi xHook"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_aop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_xhook"
+        android:text="AOP切面开发"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_aop_bundle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_aop"
+        android:text="app bundles动态化方案"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
